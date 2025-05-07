@@ -1,0 +1,7 @@
+POST http://localhost:3200/api/chat/ask
+Content-Type: application/json
+
+{
+  "user": "john_doe",
+  "message": "Hello, how are you?"
+}
